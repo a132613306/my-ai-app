@@ -114,7 +114,7 @@
     </header>
 
     <ul class="ai-list">
-      <!-- ✅ 修正：链接无空格，添加 tabindex 和 aria-label -->
+      <!-- ✅ 通义千问 -->
       <li class="ai-item" 
           onclick="openChat('https://www.tongyi.com', '通义千问')" 
           tabindex="0" 
@@ -127,7 +127,7 @@
         <div class="arrow">›</div>
       </li>
 
-      <!-- 其他 AI 项同理 -->
+      <!-- ✅ 豆包 -->
       <li class="ai-item" 
           onclick="openChat('https://www.doubao.com', '豆包')" 
           tabindex="0" 
@@ -140,6 +140,7 @@
         <div class="arrow">›</div>
       </li>
 
+      <!-- ✅ Kimi -->
       <li class="ai-item" 
           onclick="openChat('https://kimi.moonshot.cn', 'Kimi')" 
           tabindex="0" 
@@ -152,7 +153,85 @@
         <div class="arrow">›</div>
       </li>
 
-      <!-- 其余项省略，格式保持一致 -->
+      <!-- ✅ 智谱AI -->
+      <li class="ai-item" 
+          onclick="openChat('https://chatglm.cn', '智谱AI')" 
+          tabindex="0" 
+          aria-label="智谱AI">
+        <div class="avatar">Z</div>
+        <div class="info">
+          <div class="name">智谱AI</div>
+          <div class="desc">GLM大模型，学术与推理强</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ 文心一言 -->
+      <li class="ai-item" 
+          onclick="openChat('https://yiyan.baidu.com', '文心一言')" 
+          tabindex="0" 
+          aria-label="文心一言">
+        <div class="avatar">文</div>
+        <div class="info">
+          <div class="name">文心一言</div>
+          <div class="desc">百度大模型，中文理解强</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ Gemini -->
+      <li class="ai-item" 
+          onclick="openChat('https://gemini.google.com', 'Gemini')" 
+          tabindex="0" 
+          aria-label="Gemini">
+        <div class="avatar">G</div>
+        <div class="info">
+          <div class="name">Gemini</div>
+          <div class="desc">Google大模型（需网络支持）</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ ChatGPT -->
+      <li class="ai-item" 
+          onclick="openChat('https://chat.openai.com', 'ChatGPT')" 
+          tabindex="0" 
+          aria-label="ChatGPT">
+        <div class="avatar">C</div>
+        <div class="info">
+          <div class="name">ChatGPT</div>
+          <div class="desc">OpenAI经典模型（需网络支持）</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ Claude -->
+      <li class="ai-item" 
+          onclick="openChat('https://claude.ai', 'Claude')" 
+          tabindex="0" 
+          aria-label="Claude">
+        <div class="avatar">C</div>
+        <div class="info">
+          <div class="name">Claude</div>
+          <div class="desc">Anthropic出品，逻辑推理强</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ PaLM -->
+      <li class="ai-item" 
+          onclick="openChat('https://makersuite.google.com', 'PaLM')" 
+          tabindex="0" 
+          aria-label="PaLM">
+        <div class="avatar">P</div>
+        <div class="info">
+          <div class="name">PaLM</div>
+          <div class="desc">Google旧版大模型（需登录）</div>
+        </div>
+        <div class="arrow">›</div>
+      </li>
+
+      <!-- ✅ 其他模型（可自行扩展） -->
     </ul>
 
     <footer>
