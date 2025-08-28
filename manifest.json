@@ -1,0 +1,21 @@
+{
+  "name": "我的AI助手",
+  "short_name": "AI助手",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#108775",
+  "theme_color": "#108775",
+  "description": "聚合通义千问、豆包、Kimi、文心一言等AI模型的聊天入口",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
